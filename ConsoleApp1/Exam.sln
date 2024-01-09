@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicServer", "LogicServer\LogicServer.csproj", "{C1E63EE2-8D9E-4844-A239-9A645D1DABD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{AAFD8EB1-A6DE-46BE-8660-21351A1854FA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E63EE2-8D9E-4844-A239-9A645D1DABD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E63EE2-8D9E-4844-A239-9A645D1DABD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E63EE2-8D9E-4844-A239-9A645D1DABD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E63EE2-8D9E-4844-A239-9A645D1DABD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFD8EB1-A6DE-46BE-8660-21351A1854FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFD8EB1-A6DE-46BE-8660-21351A1854FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFD8EB1-A6DE-46BE-8660-21351A1854FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFD8EB1-A6DE-46BE-8660-21351A1854FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
